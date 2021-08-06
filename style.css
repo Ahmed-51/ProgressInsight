@@ -1,0 +1,107 @@
+.main{
+  padding: 3% 4%;
+  background-color: #511281c7;
+  font-family: 'Acme', sans-serif;
+}
+
+
+.leftpanel{
+  width: 52%;
+  float: left;
+  margin-bottom: 90px;
+}
+
+.rightpanel{
+  width: 48%;
+  float: left;
+  margin-bottom: 100px;
+}
+
+
+.sub-main{
+  height: 42px;
+  width: 631px;
+  border: 5px black solid;
+  margin-bottom: 10px;
+}
+
+
+
+/* heading */
+
+h1{
+  color: white;
+  font-size: 50px;
+  margin: 0 auto 15px auto;
+  padding-left: 210px;
+}
+
+
+
+/* percentage visualizer */
+
+.first{
+  border-left: 1px #00FF00 solid;
+}
+
+
+.aug{
+  height: 40px;
+  width: 5.3px;
+  float: left;
+  border-right: 1px #00FF00 solid;
+  border-top: 1px #00FF00 solid;
+  border-bottom: 1px #00FF00 solid;
+}
+
+
+.colors{
+  background-color: #00FF00;
+}
+
+
+
+
+/* texts and values */
+
+.text{
+  font-size: 25px;
+  margin-right: 16px;
+}
+
+
+.num{
+  font-size: 40px;
+  color: #00FF00;
+  padding-right: 25px;
+}
+
+.nopadright{
+  padding-right: 0;
+}
+
+
+
+/* buttons */
+
+
+.button{
+  height: 45px;
+  border-radius: 10px;
+  font-family: 'Acme', sans-serif;
+  font-size: 16px;
+  background-color: #F7EA00;
+  margin-right: 40px;
+  border-style: none;
+
+}
+
+.button:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+
+
+/* end of stylesheet */
